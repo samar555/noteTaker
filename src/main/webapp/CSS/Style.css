@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+.purple {
+	background: purple;
+}
+
+.clipPath {
+	background: purple;
+	clip-path: polygon(20% 40%, 43% 24%, 70% 40%, 100% 25%, 100% 100%, 0 100%, 0 21%);
+	height: 100px;
+}
+
+.gradiant {
+	width: auto;
+	height: 20%;
+	background-image: linear-gradient(to top right, red, blue);
+}
+
+.Red {
+	background: purple;
+	margin: 29px;
+	font-size: 100px;
+	color: red;
+}
+
+.bMargin {
+	margin: 20px;
+}
+
+.bPadding {
+	padding: 10px;
+}
+
+.bBold {
+	font-weight: bold;
+}
+
+.bRound {
+	border: 2px solid white;
+	border-radius: 40px;
+}
+
+.fontSize {
+	font-size: 0.7rem;
+}
+
+#freeSignup {
+	width: 100%;
+	height: fint-content;
+	display: flex;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+#freeSignup #left {
+	float: left;
+	width: 50%;
+}
+
+#freeSignup #left img {
+	width: 100%;
+}
+
+#freeSignup #right {
+	font-size: small;
+	width: 50%;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	padding: 6%;
+}
+
+@media only screen and (max-width: 994px) {
+	#freeSignup #right {
+		font-size: 100%;
+		padding: 0px;
+	}
+}
+
+
+
+@media only screen and (max-width : 554px) {
+	#freeSignup {
+		width: 100%;
+		height: fint-content;
+		display: inline;
+		margin: 1rem;
+		padding: 2rem;
+	}
+	#freeSignup #left {
+		
+		width: 100%;
+	}
+	#freeSignup #left img {
+		width: 100%;
+	}
+	#freeSignup #right {
+	font-size: small;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6%;
+}
+#freeSignup #right li {
+	list-style-type:none;
+}
+}
